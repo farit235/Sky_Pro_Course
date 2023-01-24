@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Adela Hendricks",
+    "picture": "https://picsum.photos/200",
+    "position": "Go разработчик",
+    "gender": "female",
+    "age": 40,
+    "skills": "go, python"
+  },
+  {
+    "id": 2,
+    "name": "Sheri Torres",
+    "picture": "https://picsum.photos/200",
+    "position": "Delphi разработчик",
+    "gender": "female",
+    "age": 26,
+    "skills": "delphi, pascal, basic, fortran"
+  },
+  {
+    "id": 3,
+    "name": "Burt Stein",
+    "picture": "https://picsum.photos/200",
+    "position": "Team Lead",
+    "gender": "male",
+    "age": 40,
+    "skills": "делегирование, обсуждать важные вопросы, пользоваться календарем"
+  },
+  {
+    "id": 4,
+    "name": "Kate Delmond",
+    "picture": "https://picsum.photos/200",
+    "position": "Web Designer",
+    "gender": "female",
+    "age": 25,
+    "skills": "Figma, SketchApp, Autodesk"
+  },
+  {
+    "id": 5,
+    "name": "Day Holloway",
+    "picture": "https://picsum.photos/200",
+    "position": "HR manager",
+    "gender": "male",
+    "age": 35,
+    "skills": "LinkedIn, Telegram, HeadHunter, WhatsApp, Jira"
+  },
+  {
+    "id": 6,
+    "name": "Austin Cochran",
+    "picture": "https://picsum.photos/200",
+    "position": "Python Developer",
+    "gender": "male",
+    "age": 26,
+    "skills": "Python, HTML"
+  },
+  {
+    "id": 7,
+    "name": "Sheree Love",
+    "picture": "https://picsum.photos/200",
+    "position": "Gjango Developer",
+    "gender": "female",
+    "age": 33,
+    "skills": "Python, Django, Flask"
+  }
+]
