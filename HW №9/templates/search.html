@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>!DOCTYPE</title>
+   <meta charset="utf-8">
+ </head>
+ <body>
+    <h1>Найдено кандидатов: {{length}} </h1>
+    {%for candidate in candidates%}
+        <p><a href="/candidate/<x>">{{candidate.name}}</a></p>
+    {%endfor%}
+ </body>
+</html>
