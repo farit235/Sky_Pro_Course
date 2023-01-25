@@ -1,0 +1,144 @@
+
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:53] "[32mGET /search?s=Hello HTTP/1.1[0m" 308 -
+INFO:root:Поиск по всем строчкам файла
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:53] "GET /search/?s=Hello HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:53] "[33mGET /uploads/images/%3CFileStorage:%20'my_photo.jpeg'%20('image/jpeg')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:53] "[33mGET /uploads/images/%3CFileStorage:%20'images.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:53] "[36mGET /uploads/images/my_photo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:53] "[36mGET /uploads/images/my_photo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:22:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:23:26] "[32mGET /loader HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:23:26] "GET /loader/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:23:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:23:39] "[32mPOST /upload HTTP/1.1[0m" 308 -
+INFO:root:Используете неправльный тип файла
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:23:39] "POST /upload/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:23:39] "GET /uploads/images/Informatsionnoe_Pismo_Khakaton_2023_1.docx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:23:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:24:56] "[32mGET /loader HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:24:56] "GET /loader/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:24:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:24:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:24:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:24:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:25:58] "[32mGET /search?s=Hello HTTP/1.1[0m" 308 -
+INFO:root:Поиск по всем строчкам файла
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:25:58] "GET /search/?s=Hello HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:25:58] "[33mGET /uploads/images/%3CFileStorage:%20'my_photo.jpeg'%20('image/jpeg')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:25:58] "[33mGET /uploads/images/%3CFileStorage:%20'images.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:25:58] "[36mGET /uploads/images/my_photo.jpeg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:25:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:20] "[32mGET /search?s=Hello HTTP/1.1[0m" 308 -
+INFO:root:Поиск по всем строчкам файла
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:20] "GET /search/?s=Hello HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:20] "[33mGET /uploads/images/%3CFileStorage:%20'my_photo.jpeg'%20('image/jpeg')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:20] "[33mGET /uploads/images/%3CFileStorage:%20'images.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:20] "[36mGET /uploads/images/my_photo.jpeg HTTP/1.1[0m" 304 -
+ERROR:root:Файла json в проекте нет!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:34] "[32mGET /search?s=Hello HTTP/1.1[0m" 308 -
+INFO:root:Поиск по всем строчкам файла
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/farit_sib/PycharmProjects/Sky_Pro_Course/HW10/search/search.py", line 10, in search_page
+    return render_template("post_list.html", posts=functions.find_items(s), word=s)
+  File "/Users/farit_sib/PycharmProjects/Sky_Pro_Course/HW10/functions.py", line 28, in find_items
+    for item in data:
+TypeError: 'NoneType' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:34] "[35m[1mGET /search/?s=Hello HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:34] "[33mGET /uploads/images/%3CFileStorage:%20'my_photo.jpeg'%20('image/jpeg')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:26:34] "[33mGET /uploads/images/%3CFileStorage:%20'images.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
+ERROR:root:Файла json в проекте нет!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:14] "[32mGET /search?s=Hello HTTP/1.1[0m" 308 -
+INFO:root:Поиск по всем строчкам файла
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/farit_sib/PycharmProjects/Sky_Pro_Course/HW10/search/search.py", line 10, in search_page
+    return render_template("post_list.html", posts=functions.find_items(s), word=s)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/farit_sib/PycharmProjects/Sky_Pro_Course/HW10/templates/post_list.html", line 15, in top-level template code
+    {%for post in posts%}
+TypeError: 'NoneType' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:14] "[35m[1mGET /search/?s=Hello HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:14] "[33mGET /uploads/images/%3CFileStorage:%20'my_photo.jpeg'%20('image/jpeg')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:14] "[33mGET /uploads/images/%3CFileStorage:%20'images.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
+ERROR:root:Файла json в проекте нет!
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:52] "[32mGET /search?s=Hello HTTP/1.1[0m" 308 -
+INFO:root:Поиск по всем строчкам файла
+ERROR:root:Error read
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/farit_sib/PycharmProjects/Sky_Pro_Course/HW10/search/search.py", line 10, in search_page
+    return render_template("post_list.html", posts=functions.find_items(s), word=s)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/templating.py", line 130, in _render
+    rv = template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/farit_sib/PycharmProjects/Sky_Pro_Course/HW10/templates/post_list.html", line 15, in top-level template code
+    {%for post in posts%}
+TypeError: 'NoneType' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:52] "[35m[1mGET /search/?s=Hello HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:52] "[33mGET /uploads/images/%3CFileStorage:%20'my_photo.jpeg'%20('image/jpeg')%3E HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2023 23:29:52] "[33mGET /uploads/images/%3CFileStorage:%20'images.png'%20('image/png')%3E HTTP/1.1[0m" 404 -
