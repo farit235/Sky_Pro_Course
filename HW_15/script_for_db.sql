@@ -1,0 +1,95 @@
+SELECT * FROM animals
+
+----------------------------------------------------
+
+  CREATE TABLE IF NOT EXISTS colors
+(
+ color_id INTEGER PRIMARY KEY AUTOINCREMENT,
+ color varchar(100) 
+)
+
+INSERT INTO colors (color)
+SELECT DISTINCT * FROM
+(SELECT DISTINCT animals.color1 AS color FROM animals
+UNION ALL
+SELECT DISTINCT animals.color2 AS color FROM animals)
+
+-----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS breeds
+(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	breed VARCHAR(100)
+)
+
+INSERT INTO breeds (breed)
+SELECT DISTINCT animals.breed AS breed FROM animals
+
+----------------------------------------------------
+
+ CREATE TABLE IF NOT EXISTS animals_colors
+(
+    animal_id INTEGER,
+    color_id INTEGER,
+    FOREIGN KEY (animal_id) REFERENCES animals_final(id),
+    FOREIGN KEY (color_id) REFERENCES colors(id)
+)
+
+INSERT INTO animals_colors (animal_id, color_id)
+SELECT DISTINCT animals_final.id, colors.color_id FROM animals
+JOIN colors ON colors.color = animals.color1
+JOIN animals_final ON animals_final.animal_id = animals.animal_id  
+UNION ALL 
+SELECT DISTINCT animals_final.id, colors.color_id FROM animals
+JOIN colors ON colors.color = animals.color2
+JOIN animals_final ON animals_final.animal_id = animals.animal_id 
+
+SELECT * FROM animals_colors
+
+----------------------------------------------------
+
+
+CREATE TABLE IF NOT EXISTS outcome
+(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	subtype VARCHAR(50),
+	"type" VARCHAR(50),
+	"month" INTEGER,
+	"year" INTEGER
+)
+
+INSERT INTO outcome (subtype, "type", "month", "year")
+SELECT animals.outcome_subtype, animals.outcome_type , animals.outcome_month , animals.outcome_year FROM animals
+
+----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS animals_final
+(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	age_upon_outcome VARCHAR(50),
+	animal_id VARCHAR(50),
+	animal_type VARCHAR(50),
+	name VARCHAR(50),
+	breed_id INTEGER,
+	date_of_birth VARCHAR(50),
+	outcome_id INTEGER,
+	FOREIGN KEY (outcome_id) REFERENCES outcome(id),
+	FOREIGN KEY (breed_id) REFERENCES breeds(id)
+)
+
+INSERT INTO animals_final (age_upon_outcome, animal_id, animal_type, name, date_of_birth, outcome_id, breed_id)
+SELECT animals.age_upon_outcome, animals.animal_id , animals.animal_type , animals.name, animals.date_of_birth, outcome.id, breeds.breed  FROM animals 
+JOIN outcome ON outcome.subtype = animals.outcome_subtype 
+			 AND outcome."type" = animals.outcome_type 
+			 AND outcome."month" = animals.outcome_month  
+			 AND outcome."year" = animals.outcome_year  
+JOIN breeds ON breeds.breed =animals.breed
+
+----------------------------------------------------
+
+SELECT animals_final.name, animals_final.breed, colors.color, outcome.*  FROM animals_final
+JOIN animals_colors ON animals_colors.animal_id = animals_final.id  
+JOIN colors ON colors.color_id  = animals_colors.color_id
+JOIN outcome ON outcome.id = animals_final.outcome_id 
+
+
