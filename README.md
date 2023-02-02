@@ -16,3 +16,4 @@ List of Homeworks:
 12. Pass 
 13. Pass
 14. Работа с большим количеством данных, Flask приложение c SQL кодом, а также вывод информации через GET запросы. (Blueprint, SQLite, SQL, GET requests, db)
+15. Работа с SQL (JOIN, UNION, FOREIGN KEY, PRIMARY KEY, 3 NORMAL FORMS)
