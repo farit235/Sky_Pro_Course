@@ -17,3 +17,5 @@ List of Homeworks:
 13. Pass
 14. Работа с большим количеством данных, Flask приложение c SQL кодом, а также вывод информации через GET запросы. (Blueprint, SQLite, SQL, GET requests, db)
 15. Работа с SQL (JOIN, UNION, FOREIGN KEY, PRIMARY KEY, 3 NORMAL FORMS)
+16. Создано FLASK приложение с SQLAlchemy (SQLAlchemy; requests: POST, GET, PUT, DELETE; POSTMAN; JSON)
+17. Создано FLASK приложение с REST_X (REST_X; CBV; POSTMAN; REST API, Schema, Database connection)
